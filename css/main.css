@@ -43,3 +43,11 @@
   }
 }
 
+/*----------
+  SECTION 3
+-----------*/
+.card-testimonials{
+  background-color: var(--second-color);
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
