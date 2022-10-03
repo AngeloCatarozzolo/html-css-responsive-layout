@@ -18,6 +18,10 @@ section{
     list-style: none;
 }
 
+.title{
+    width: 100%;
+}
+
 /*----------
     FLEX
 ----------*/
