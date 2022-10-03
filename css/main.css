@@ -1,0 +1,40 @@
+/*----------
+  SECTION 1
+----------*/
+
+.card-debug{
+  background-color: var(--first-color-light);
+  height: 100px;
+}
+
+.highligts .col{
+  width: 100%;
+  margin: 0.625rem 0;
+}
+
+@media screen and (min-width: 768px){
+    .highligts .col{
+      width: calc(100% / 3);  
+    }
+    .highligts .col:first-child{
+        width: calc( (100% /3) * 2);
+    }
+}
+
+/*----------
+  SECTION 2
+----------*/
+.strategic{
+  background-color: var(--second-color);
+}
+
+.strategic .col {
+  width: 100%;
+  margin: .625rem 0;
+}
+
+@media screen and (min-width: 768px){
+  .strategic .col{
+    width: 50%;
+  }
+}
