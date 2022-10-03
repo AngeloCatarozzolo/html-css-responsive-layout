@@ -1,4 +1,6 @@
-/*container*/
+/*----------
+    CONTAINER
+----------*/
 section{
     padding: 1.875rem 0;
 }
@@ -16,7 +18,9 @@ section{
     list-style: none;
 }
 
-/*regole flex*/
+/*----------
+    FLEX
+----------*/
 
 .flex{
     display: flex;
