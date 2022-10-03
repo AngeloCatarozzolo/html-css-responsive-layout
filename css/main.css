@@ -76,6 +76,14 @@
 @media screen and (max-width: 462px) {
   .benefits .col{
     width: 100%;
+  } 
+}
+
+/*----------
+  SECTION 5
+----------*/ 
+@media screen and (min-width: 463px) {
+  .about .col{
+    width: calc(100% / 2);
   }
-  
 }
